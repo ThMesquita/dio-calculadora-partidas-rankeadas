@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Partidas Ranqueadas</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <section>
+    <div>
+      <label for="wins">🏆Vitórias</label>
+      <input type="number" name="wins" id="wins">
+    </div>
+    <div>
+      <label for="losses">💔Derrotas</label>
+      <input type="number" name="losses" id="losses">
+    </div>
+    <input class="btn" type="button" value="Verificar Rank" onClick="verify()">
+    <div id="res"></div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
